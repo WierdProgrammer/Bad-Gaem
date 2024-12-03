@@ -32,6 +32,8 @@ const wheel = document.getElementById("wd")
 const crd = document.getElementById("crated")
 const crm = document.getElementById("cdm")
 const wind = document.getElementById("wdis")
+const song = new Audio('Assets/s.mp3')
+song.play()
 wheel.style.display="none"
 let points = parseInt(localStorage.getItem('badgaem-points')) || 0;
 let extra = parseInt(localStorage.getItem('badgaem-extra')) || 1;
